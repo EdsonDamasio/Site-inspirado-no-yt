@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+</head>
+<header>
+    <div class="logo">
+        <img src="youtube-logo.png" alt="Logo Youtube">
+    </div>
+     
+    <div class="search-bar">
+        <input type="text" placeholder="Pesquisar">
+        <button>🔍</button>
+    </div>
+
+    <div class="Icons">
+        <button>🔔</button>
+        <button>🔔</button>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <!--Área do Video Principal-->
+        <div class="main-content">
+            <div class="video-player">
+                <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/GLlqBi2PW3U" frameborder="0" allowfullscreen></iframe>
+    </div>
+     
+    <!--Informações do video-->
+    <div class="video-info">
+        <h2>TEM VULTO NO ESCRITÓRIO! - One Late Night</h2>
+        <p>Games EduUu • <span id="view-count">3,7 mi</span>  de visualizações • 26 de novembro 2016</p>
+        <div class="actions">
+        <button id="like-btn"> Curtir (<span id="like-count">0</span>) </button>
+        <button id="subscrive-btn">Increver-se</button>
+        </div>
+    </div>
+
+    <!--comentários-->
+    <div class="comments-section">
+        <h3>Comentários</h3>
+        <p><strong>loop5057</strong> Quem tá vendo em 2025?</p>
+        <p><strong>Gb1610</strong> DANAONÃO GROSSO</p>
+    </div>
+    <form id="comment-form">
+        <input type="text" id=" comment-input" placeholder="Adicionar comentário..." required>
+        <button type="submit">Comentar</button>
+    </form>
+    <!--Barra direita (videos)-->
+    <div class="suggested-videos">
+        <div class="suggested-video">
+            <img src="https://img.youtube.com/vi/8eGpDmDUzdM/hqdefault.jpg" alt="Thumb">
+            <div class="video-details">
+                <p class="video-title">Tamanho desse Monstro! - RESIDENT EVIL 7</p>
+            </div>
+    </div>
+</body>
+</html>
